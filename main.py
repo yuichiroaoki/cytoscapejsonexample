@@ -17,6 +17,13 @@ def bigGraph(req, resp):
 
     resp.media= df
 
+@api.route("/new_position.json")
+def new_position(req, resp):
+    with open('static/new_position.json') as f:
+        data=json.load(f)
+
+    resp.media= data
+
 if __name__ == '__main__':
-    api.run()
     setup_positions()
+    api.run()
