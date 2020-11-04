@@ -4,42 +4,70 @@
             "data": {
                 "id": "one",
                 "label": "Node 1"
+            },
+            "position": {
+                "x": 230,
+                "y": 230
             }
         },
         {
             "data": {
                 "id": "two",
                 "label": "Node 2"
+            },
+            "position": {
+                "x": 20,
+                "y": 20
             }
         },
         {
             "data": {
                 "id": "three",
                 "label": "Node 3"
+            },
+            "position": {
+                "x": 20,
+                "y": 20
             }
         },
         {
             "data": {
                 "id": "four",
                 "label": "Node 4"
+            },
+            "position": {
+                "x": 20,
+                "y": 20
             }
         },
         {
             "data": {
                 "id": "five",
                 "label": "Node 5"
+            },
+            "position": {
+                "x": 20,
+                "y": 20
             }
         },
         {
             "data": {
                 "id": "six",
                 "label": "Node 6"
+            },
+            "position": {
+                "x": 20,
+                "y": 20
             }
         },
         {
             "data": {
                 "id": "seven",
                 "label": "Node 7"
+            },
+            "position": {
+                "x": 122,
+                "y": 222
             }
         },
         {

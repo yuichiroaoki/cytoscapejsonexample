@@ -16,7 +16,7 @@
 
     <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script> 
     <script>
-        $.getJSON("./big_graph.json", function (data) {
+        $.getJSON("./bigGraph.json", function (data) {
           // consoleに取得したjsonを表示
             console.log(data);
             var cy = cytoscape({
@@ -32,8 +32,9 @@
                     }
                 ],
                 layout: {
-                    name: 'grid'
-                }
+                    name: 'preset'
+                },
+                // styleEnabled: false
             });
         });
     </script>
