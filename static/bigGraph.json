@@ -129,136 +129,91 @@
         {
             "data": {
                 "source": "four",
-                "target": "two",
-                "label": "Edge from Node1 to Node2",
-                "weight": 5.23,
-                "rank": 1
+                "target": "two"
             }
         },
         {
             "data": {
                 "source": "one",
-                "target": "two",
-                "label": "Edge from Node1 to Node2",
-                "weight": 5.2,
-                "rank": 1
+                "target": "two"
             }
         },
         {
             "data": {
                 "source": "four",
-                "target": "two",
-                "label": "Edge from Node1 to Node2",
-                "weight": 5.2,
-                "rank": 1
+                "target": "two"
             }
         },
         {
             "data": {
                 "source": "five",
-                "target": "two",
-                "label": "Edge from Node1 to Node2",
-                "weight": 5.23,
-                "rank": 1
+                "target": "two"
             }
         },
         {
             "data": {
                 "source": "one",
-                "target": "six",
-                "label": "Edge from Node1 to Node2",
-                "weight": 5.23,
-                "rank": 1
+                "target": "six"
             }
         },
         {
             "data": {
                 "source": "two",
-                "target": "eight",
-                "label": "Edge from Node1 to Node2",
-                "weight": 5.23,
-                "rank": 1
+                "target": "eight"
             }
         },
         {
             "data": {
                 "source": "one",
-                "target": "seven",
-                "label": "Edge from Node1 to Node2",
-                "weight": -8.23,
-                "rank": 1
+                "target": "seven"
             }
         },
         {
             "data": {
                 "source": "four",
-                "target": "five",
-                "label": "Edge from Node1 to Node2",
-                "weight": -5.23,
-                "rank": 1
+                "target": "five"
             }
         },
         {
             "data": {
                 "source": "one",
-                "target": "six",
-                "label": "Edge from Node1 to Node2",
-                "weight": 9.23,
-                "rank": 2
+                "target": "six"
             }
         },
         {
             "data": {
                 "source": "eight",
-                "target": "two",
-                "label": "Edge from Node1 to Node2",
-                "weight": 1.23,
-                "rank": 2
+                "target": "two"
             }
         },
         {
             "data": {
                 "source": "twenty",
-                "target": "sixteen",
-                "label": "Edge from Node1 to Node2",
-                "weight": -3.23,
-                "rank": 1
+                "target": "sixteen"
             }
         },
         {
             "data": {
                 "source": "twelve",
-                "target": "fourteen",
-                "label": "Edge from Node1 to Node2",
-                "weight": 2.23,
-                "rank": 1
+                "target": "fourteen"
             }
         },
         {
             "data": {
                 "source": "fifteen",
-                "target": "nine",
-                "label": "Edge from Node1 to Node2",
-                "weight": 7.23,
-                "rank": 1
+                "target": "nine"
             }
         },
         {
             "data": {
                 "source": "five",
-                "target": "eighteen",
-                "label": "Edge from Node1 to Node2",
-                "weight": 9.23,
-                "rank": 1
+                "target": "eighteen"
             }
         },
         {
             "data": {
                 "source": "eight",
-                "target": "nine",
-                "label": "Edge from Node1 to Node2",
-                "weight": 2.23,
-                "rank": 1
+                "target": "nine"
             }
         }
     ]
