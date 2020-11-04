@@ -16,10 +16,12 @@
 
     <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script> 
     <script>
-    $.getJSON("./big_graph.json", function (data) {
+        $.getJSON("./big_graph.json", function (data) {
+          // consoleに取得したjsonを表示
             console.log(data);
             var cy = cytoscape({
                 container: document.getElementById('cy'),
+                // 取得したDataをelementsに流し込む
                 elements: data,
                 style: [
                     {
