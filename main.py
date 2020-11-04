@@ -9,9 +9,9 @@ def index(req, resp):
     resp.html= api.template('index.html')
 
 
-@api.route("/bigGraph.json")
+@api.route("/big_graph.json")
 def bigGraph(req, resp):
-    with open('static/bigGraph.json') as f:
+    with open('static/big_graph.json') as f:
         df=json.load(f)
 
     resp.media= df
