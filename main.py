@@ -25,5 +25,5 @@ def new_position(req, resp):
     resp.media= data
 
 if __name__ == '__main__':
-    setup_positions()
+    # setup_positions()
     api.run()
