@@ -24,6 +24,13 @@ def new_position(req, resp):
 
     resp.media= data
 
+@api.route("/full_data.json")
+def full_data(req, resp):
+    with open('static/full_data.json') as f:
+        data=json.load(f)
+
+    resp.media= data
+
 if __name__ == '__main__':
     # setup_positions()
     api.run()
