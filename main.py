@@ -1,6 +1,5 @@
 import responder
 import json
-from node_position import setup_positions
 
 api = responder.API(templates_dir='./static')
 
@@ -32,5 +31,4 @@ def full_data(req, resp):
     resp.media= data
 
 if __name__ == '__main__':
-    # setup_positions()
     api.run()

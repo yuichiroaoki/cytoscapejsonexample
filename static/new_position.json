@@ -1,8 +1,8 @@
 [
     {
         "data": {
-            "id": "one",
-            "label": "Node 1"
+            "id": "0001",
+            "label": "0001"
         },
         "position": {
             "x": 436.89388036727905,
@@ -11,8 +11,8 @@
     },
     {
         "data": {
-            "id": "two",
-            "label": "Node 2"
+            "id": "0002",
+            "label": "0002"
         },
         "position": {
             "x": 345.9664583206177,
@@ -21,8 +21,8 @@
     },
     {
         "data": {
-            "id": "three",
-            "label": "Node 3"
+            "id": "0003",
+            "label": "0003"
         },
         "position": {
             "x": 111.02365702390671,
@@ -31,8 +31,8 @@
     },
     {
         "data": {
-            "id": "four",
-            "label": "Node 4"
+            "id": "0004",
+            "label": "0004"
         },
         "position": {
             "x": 15.68850502371788,
@@ -41,8 +41,8 @@
     },
     {
         "data": {
-            "id": "five",
-            "label": "Node 5"
+            "id": "0005",
+            "label": "0005"
         },
         "position": {
             "x": 214.81268107891083,
@@ -51,8 +51,8 @@
     },
     {
         "data": {
-            "id": "six",
-            "label": "Node 6"
+            "id": "0006",
+            "label": "0006"
         },
         "position": {
             "x": 126.86556577682495,
@@ -61,242 +61,59 @@
     },
     {
         "data": {
-            "id": "seven",
-            "label": "Node 7"
-        },
-        "position": {
-            "x": 185.20571291446686,
-            "y": 321.4516341686249
+            "source": "0001",
+            "target": "0002",
+            "id": "0001:0002"
         }
     },
     {
         "data": {
-            "id": "eight",
-            "label": "Node 8"
-        },
-        "position": {
-            "x": 448.23554158210754,
-            "y": 2.855645027011633
+            "source": "0001",
+            "target": "0003",
+            "id": "0001:0003"
         }
     },
     {
         "data": {
-            "id": "nine",
-            "label": "Node 9"
-        },
-        "position": {
-            "x": 413.8551652431488,
-            "y": 125.19922852516174
+            "source": "0004",
+            "target": "0002",
+            "id": "0004:0002"
         }
     },
     {
         "data": {
-            "id": "ten",
-            "label": "Node 10"
-        },
-        "position": {
-            "x": 61.07337772846222,
-            "y": 285.8191728591919
+            "source": "0005",
+            "target": "0002"
         }
     },
     {
         "data": {
-            "id": "eleven",
-            "label": "Node 11"
-        },
-        "position": {
-            "x": 239.1819804906845,
-            "y": 258.213073015213
+            "source": "0001",
+            "target": "0006"
         }
     },
     {
         "data": {
-            "id": "twelve",
-            "label": "Node 12"
-        },
-        "position": {
-            "x": 18.506987020373344,
-            "y": 240.3727024793625
+            "source": "0002",
+            "target": "0006"
         }
     },
     {
         "data": {
-            "id": "thirteen",
-            "label": "Node 13"
-        },
-        "position": {
-            "x": 308.19299817085266,
-            "y": 322.39893078804016
+            "source": "0001",
+            "target": "0004"
         }
     },
     {
         "data": {
-            "id": "fourteen",
-            "label": "Node 14"
-        },
-        "position": {
-            "x": 232.11930692195892,
-            "y": 370.5230951309204
+            "source": "0004",
+            "target": "0005"
         }
     },
     {
         "data": {
-            "id": "fifteen",
-            "label": "Node 15"
-        },
-        "position": {
-            "x": 23.607751354575157,
-            "y": 47.5405752658844
-        }
-    },
-    {
-        "data": {
-            "id": "sixteen",
-            "label": "Node 16"
-        },
-        "position": {
-            "x": 46.9006672501564,
-            "y": 309.21512842178345
-        }
-    },
-    {
-        "data": {
-            "id": "seventeen",
-            "label": "Node 17"
-        },
-        "position": {
-            "x": 358.6803078651428,
-            "y": 484.41290855407715
-        }
-    },
-    {
-        "data": {
-            "id": "eighteen",
-            "label": "Node 18"
-        },
-        "position": {
-            "x": 150.25566518306732,
-            "y": 85.0570946931839
-        }
-    },
-    {
-        "data": {
-            "id": "nineteen",
-            "label": "Node 19"
-        },
-        "position": {
-            "x": 453.6791145801544,
-            "y": 200.41069388389587
-        }
-    },
-    {
-        "data": {
-            "id": "twenty",
-            "label": "Node 20"
-        },
-        "position": {
-            "x": 42.84558445215225,
-            "y": 322.331041097641
-        }
-    },
-    {
-        "data": {
-            "id": "twenty-one",
-            "label": "Node 21"
-        },
-        "position": {
-            "x": 340.8448398113251,
-            "y": 343.7570631504059
-        }
-    },
-    {
-        "data": {
-            "source": "four",
-            "target": "two"
-        }
-    },
-    {
-        "data": {
-            "source": "one",
-            "target": "two"
-        }
-    },
-    {
-        "data": {
-            "source": "four",
-            "target": "two"
-        }
-    },
-    {
-        "data": {
-            "source": "five",
-            "target": "two"
-        }
-    },
-    {
-        "data": {
-            "source": "one",
-            "target": "six"
-        }
-    },
-    {
-        "data": {
-            "source": "two",
-            "target": "eight"
-        }
-    },
-    {
-        "data": {
-            "source": "one",
-            "target": "seven"
-        }
-    },
-    {
-        "data": {
-            "source": "four",
-            "target": "five"
-        }
-    },
-    {
-        "data": {
-            "source": "one",
-            "target": "six"
-        }
-    },
-    {
-        "data": {
-            "source": "eight",
-            "target": "two"
-        }
-    },
-    {
-        "data": {
-            "source": "twenty",
-            "target": "sixteen"
-        }
-    },
-    {
-        "data": {
-            "source": "twelve",
-            "target": "fourteen"
-        }
-    },
-    {
-        "data": {
-            "source": "fifteen",
-            "target": "nine"
-        }
-    },
-    {
-        "data": {
-            "source": "five",
-            "target": "eighteen"
-        }
-    },
-    {
-        "data": {
-            "source": "eight",
-            "target": "nine"
+            "source": "0003",
+            "target": "0006"
         }
     }
 ]
