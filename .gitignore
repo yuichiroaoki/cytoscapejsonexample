@@ -1,9 +1,3 @@
 __pycache__/
 static/full_data.json
-static/80000_data.json
-static/300000_data.json
-static/full_nodes.json
-static/200000_data.json
-static/400000_data.json
-static/100000_data.json
-static/500000_data.json
+static/data/

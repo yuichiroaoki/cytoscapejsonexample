@@ -20,7 +20,7 @@
     <div id="cy"></div>
 
     <!-- デバッグ用 -->
-    <script src="https://unpkg.com/cytoscape/dist/cytoscape.umd.js"></script>
+    <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
     <script>
       var now = ( typeof performance !== typeof undefined ?
         performance.now.bind(performance) :
@@ -35,7 +35,7 @@
       }
 
       function loadSelectedGraph() {
-        file = '100000_data';
+        file = 'new_position';
         var t0, t1, t2, t3, t4, t5, t6, t7;
         t0 = now();
 

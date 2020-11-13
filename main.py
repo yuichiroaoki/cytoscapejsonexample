@@ -10,7 +10,7 @@ def index(req, resp):
 
 @api.route("/{file}/json")
 def json_file(req, resp, *, file):
-    with open('static/'+ file + '.json') as f:
+    with open('static/data/'+ file + '.json') as f:
         data=json.load(f)
 
     resp.media= data
