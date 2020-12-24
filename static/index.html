@@ -19,7 +19,6 @@
     </div>
     <div id="cy"></div>
 
-    <!-- デバッグ用 -->
     <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
     <script>
       var now = ( typeof performance !== typeof undefined ?
@@ -35,7 +34,7 @@
       }
 
       function loadSelectedGraph() {
-        file = '70000_data';
+        file = 'graph_CKD_JAMA2019';
         var t0, t1, t2, t3, t4, t5, t6, t7;
         t0 = now();
 
@@ -47,7 +46,7 @@
           })
           .then(data => {
             console.log(data)
-            const cy = cytoscape({
+            var cy = window.cy = cytoscape({
               container: document.getElementById('cy'),
               // 取得したDataをelementsに流し込む
               elements: data,
@@ -55,15 +54,14 @@
                   {
                       selector: 'node',
                       style: {
-                          'color': 'blue',
-                          'width': '1px',
-                          'height': '1px'
+                          'width': '12px',
+                          'height': '12px'
                       }
                   },
                   {
                     selector: 'edge',
                     style: {
-                      'width': '0.01px'
+                      'width': '1px'
                     }
                   }
               ],
@@ -79,6 +77,9 @@
           logTime('visualizing graph', t2 - t1);
           logTime('all', t2 - t0);
           log('--');
+        })
+        .then(function() {
+          cy.fit();
         })
       }
       loadSelectedGraph()

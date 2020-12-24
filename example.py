@@ -34,7 +34,7 @@ def main(new):
     print('num of nodes:', num_nodes)
     G = nx.path_graph(num_nodes)
     # networkxでノードに座標を追加
-    new.update(nx.spectral_layout(G, scale=500))
+    new.update(nx.multipartite_layout(G, scale=500))
     # 追加した座標をノードデータに書き込み
     for i in range(len(data)):
         try:
@@ -53,7 +53,7 @@ def main(new):
 start_time = time.time()
 main(pos)
 print(len(data))
-with open('static/data/spectral2.json', 'w') as f:
+with open('static/data/bipartmultipartite2.json', 'w') as f:
     json.dump(data, f, ensure_ascii=False)
 print("--- %s seconds ---" % (time.time() - start_time))
 
